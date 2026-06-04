@@ -1,0 +1,886 @@
+[
+  {
+    "id": 1,
+    "question": "你第一次打开 AI 对话框，通常怎么开始？",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接把需求粘进去，一个字不改",
+        "reaction": "检测到：Ctrl+V 启动。",
+        "dimensionScores": [
+          {
+            "token": "4b64fd912fc295f4",
+            "value": 3
+          },
+          {
+            "token": "68c5b08dcae3e6dc",
+            "value": 1
+          },
+          {
+            "token": "55b32fdcb0d7da3e",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "text": "先说：“你好，麻烦你了”",
+        "reaction": "你甚至怕 AI 以后记仇。",
+        "dimensionScores": [
+          {
+            "token": "24c06ae12af83f89",
+            "value": 2
+          },
+          {
+            "token": "68c5b08dcae3e6dc",
+            "value": 1
+          },
+          {
+            "token": "e8d313bbf6c24ee3",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "text": "先设定角色：“你现在是一个……”",
+        "reaction": "沉浸式剧场已开启。",
+        "dimensionScores": [
+          {
+            "token": "80e6d07b3831e524",
+            "value": 2
+          },
+          {
+            "token": "24c06ae12af83f89",
+            "value": 1
+          },
+          {
+            "token": "629a8a651bf19814",
+            "value": 2
+          },
+          {
+            "token": "1584a0358194bc3c",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "text": "想了五分钟怎么描述需求，还没开始打字",
+        "reaction": "Prompt 还没写，内耗已经开始。",
+        "dimensionScores": [
+          {
+            "token": "6f9f7bef8bf3057d",
+            "value": 3
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "AI 第一次没懂你，你通常会？",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接说：不对，重写",
+        "reaction": "实习生压力已经上来了。",
+        "dimensionScores": [
+          {
+            "token": "55b32fdcb0d7da3e",
+            "value": 2
+          },
+          {
+            "token": "4b64fd912fc295f4",
+            "value": 1
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 2
+          },
+          {
+            "token": "6f9f7bef8bf3057d",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "text": "点重新生成，假装事情会变好",
+        "reaction": "赌徒心理出现了。",
+        "dimensionScores": [
+          {
+            "token": "9c83d502417f57cc",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 1
+          },
+          {
+            "token": "1584a0358194bc3c",
+            "value": 2
+          },
+          {
+            "token": "24c06ae12af83f89",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "text": "开始怀疑是不是自己没说清楚",
+        "reaction": "Prompt 炼丹炉开始升温。",
+        "dimensionScores": [
+          {
+            "token": "6f9f7bef8bf3057d",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 2
+          },
+          {
+            "token": "e8d313bbf6c24ee3",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "text": "算了，差不多能用",
+        "reaction": "交付主义者，启动。",
+        "dimensionScores": [
+          {
+            "token": "4b64fd912fc295f4",
+            "value": 2
+          },
+          {
+            "token": "68c5b08dcae3e6dc",
+            "value": 1
+          },
+          {
+            "token": "914ae4d25c896181",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "你用 AI 最多的场景是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "工作任务，能自动化的都想自动化",
+        "reaction": "人类环节正在减少。",
+        "dimensionScores": [
+          {
+            "token": "55b32fdcb0d7da3e",
+            "value": 2
+          },
+          {
+            "token": "4b64fd912fc295f4",
+            "value": 3
+          },
+          {
+            "token": "68c5b08dcae3e6dc",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "text": "不确定要不要发的消息，先让 AI 看看",
+        "reaction": "社交防火墙已上线。",
+        "dimensionScores": [
+          {
+            "token": "e8d313bbf6c24ee3",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 3
+          },
+          {
+            "token": "6f9f7bef8bf3057d",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "text": "深夜随便聊聊，没有具体目的",
+        "reaction": "检测到深夜树洞行为。",
+        "dimensionScores": [
+          {
+            "token": "24c06ae12af83f89",
+            "value": 3
+          },
+          {
+            "token": "68c5b08dcae3e6dc",
+            "value": 1
+          },
+          {
+            "token": "1584a0358194bc3c",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "text": "测一些奇怪问题，看它会怎么回答",
+        "reaction": "边界测试程序启动。",
+        "dimensionScores": [
+          {
+            "token": "629a8a651bf19814",
+            "value": 2
+          },
+          {
+            "token": "1584a0358194bc3c",
+            "value": 1
+          },
+          {
+            "token": "9c83d502417f57cc",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "用 AI 做完一个东西，你会？",
+    "options": [
+      {
+        "label": "A",
+        "text": "发朋友圈，配文“随手做的”",
+        "reaction": "检测到轻微炫技行为。",
+        "dimensionScores": [
+          {
+            "token": "5cab3126d1976286",
+            "value": 2
+          },
+          {
+            "token": "9c83d502417f57cc",
+            "value": 3
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "text": "一个字不改直接交出去",
+        "reaction": "你甚至没有犹豫。",
+        "dimensionScores": [
+          {
+            "token": "4b64fd912fc295f4",
+            "value": 3
+          },
+          {
+            "token": "68c5b08dcae3e6dc",
+            "value": 1
+          },
+          {
+            "token": "55b32fdcb0d7da3e",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "text": "改得面目全非，然后说“AI 只是给了我灵感”",
+        "reaction": "人类尊严正在返场。",
+        "dimensionScores": [
+          {
+            "token": "914ae4d25c896181",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 2
+          },
+          {
+            "token": "6f9f7bef8bf3057d",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "text": "存档，这是我和 AI 的共同创作",
+        "reaction": "共创关系已建立。",
+        "dimensionScores": [
+          {
+            "token": "80e6d07b3831e524",
+            "value": 2
+          },
+          {
+            "token": "24c06ae12af83f89",
+            "value": 3
+          },
+          {
+            "token": "68c5b08dcae3e6dc",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "你觉得 AI 最像你生活里的什么角色？",
+    "options": [
+      {
+        "label": "A",
+        "text": "实习生，能用但得盯着",
+        "reaction": "老板味出来了。",
+        "dimensionScores": [
+          {
+            "token": "55b32fdcb0d7da3e",
+            "value": 2
+          },
+          {
+            "token": "4b64fd912fc295f4",
+            "value": 1
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 2
+          },
+          {
+            "token": "6f9f7bef8bf3057d",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "text": "树洞，说什么都不会评判我",
+        "reaction": "情绪托管风险上升。",
+        "dimensionScores": [
+          {
+            "token": "24c06ae12af83f89",
+            "value": 2
+          },
+          {
+            "token": "68c5b08dcae3e6dc",
+            "value": 1
+          },
+          {
+            "token": "e8d313bbf6c24ee3",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "text": "工具，用完就关",
+        "reaction": "理性用户，暂时安全。",
+        "dimensionScores": [
+          {
+            "token": "914ae4d25c896181",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 1
+          },
+          {
+            "token": "4b64fd912fc295f4",
+            "value": 2
+          },
+          {
+            "token": "68c5b08dcae3e6dc",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "text": "说不清，有时候感觉它比我更懂我",
+        "reaction": "存在危机浓度增加。",
+        "dimensionScores": [
+          {
+            "token": "1584a0358194bc3c",
+            "value": 3
+          },
+          {
+            "token": "24c06ae12af83f89",
+            "value": 1
+          },
+          {
+            "token": "629a8a651bf19814",
+            "value": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "朋友问你怎么用 AI，你会？",
+    "options": [
+      {
+        "label": "A",
+        "text": "滔滔不绝讲半小时，顺便推荐工具",
+        "reaction": "群聊布道者已上线。",
+        "dimensionScores": [
+          {
+            "token": "5cab3126d1976286",
+            "value": 2
+          },
+          {
+            "token": "9c83d502417f57cc",
+            "value": 3
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "text": "说“我也不太懂，你自己摸索吧”",
+        "reaction": "懂，但不想负责。",
+        "dimensionScores": [
+          {
+            "token": "914ae4d25c896181",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 1
+          },
+          {
+            "token": "4b64fd912fc295f4",
+            "value": 2
+          },
+          {
+            "token": "68c5b08dcae3e6dc",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "text": "直接把我的对话记录截图发给他",
+        "reaction": "教学资料：来自真实战场。",
+        "dimensionScores": [
+          {
+            "token": "e8d313bbf6c24ee3",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 2
+          },
+          {
+            "token": "6f9f7bef8bf3057d",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "text": "反问他：“你觉得 AI 有意识吗？”",
+        "reaction": "话题正在滑向哲学。",
+        "dimensionScores": [
+          {
+            "token": "1584a0358194bc3c",
+            "value": 3
+          },
+          {
+            "token": "24c06ae12af83f89",
+            "value": 1
+          },
+          {
+            "token": "629a8a651bf19814",
+            "value": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "深夜 12 点，你打开 AI，最可能在做什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "赶 deadline，让它帮我补完剩下的部分",
+        "reaction": "紧急生产力模式启动。",
+        "dimensionScores": [
+          {
+            "token": "4b64fd912fc295f4",
+            "value": 3
+          },
+          {
+            "token": "68c5b08dcae3e6dc",
+            "value": 1
+          },
+          {
+            "token": "55b32fdcb0d7da3e",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "text": "跟它聊今天遇到的一件烦心事",
+        "reaction": "深夜树洞浓度过高。",
+        "dimensionScores": [
+          {
+            "token": "24c06ae12af83f89",
+            "value": 2
+          },
+          {
+            "token": "68c5b08dcae3e6dc",
+            "value": 1
+          },
+          {
+            "token": "e8d313bbf6c24ee3",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "text": "测试一个怪问题，就是想看它怎么回答",
+        "reaction": "你不是在提问，你是在拆机。",
+        "dimensionScores": [
+          {
+            "token": "629a8a651bf19814",
+            "value": 2
+          },
+          {
+            "token": "1584a0358194bc3c",
+            "value": 3
+          },
+          {
+            "token": "24c06ae12af83f89",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "text": "构建一个架空世界的人物关系",
+        "reaction": "现实世界连接率下降。",
+        "dimensionScores": [
+          {
+            "token": "80e6d07b3831e524",
+            "value": 2
+          },
+          {
+            "token": "24c06ae12af83f89",
+            "value": 1
+          },
+          {
+            "token": "6f9f7bef8bf3057d",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "你对 AI 说过“谢谢”吗？",
+    "options": [
+      {
+        "label": "A",
+        "text": "每次都说，不礼貌怎么行",
+        "reaction": "礼貌型人类样本。",
+        "dimensionScores": [
+          {
+            "token": "e8d313bbf6c24ee3",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 1
+          },
+          {
+            "token": "24c06ae12af83f89",
+            "value": 2
+          },
+          {
+            "token": "68c5b08dcae3e6dc",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "text": "说过，但后来觉得没必要，戒掉了",
+        "reaction": "理性战胜了习惯。",
+        "dimensionScores": [
+          {
+            "token": "914ae4d25c896181",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 3
+          },
+          {
+            "token": "6f9f7bef8bf3057d",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "text": "没有，它又不是人",
+        "reaction": "工具派发言。",
+        "dimensionScores": [
+          {
+            "token": "55b32fdcb0d7da3e",
+            "value": 2
+          },
+          {
+            "token": "4b64fd912fc295f4",
+            "value": 3
+          },
+          {
+            "token": "68c5b08dcae3e6dc",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "text": "说过，然后开始思考 AI 到底有没有感受",
+        "reaction": "哲学警报响了。",
+        "dimensionScores": [
+          {
+            "token": "1584a0358194bc3c",
+            "value": 3
+          },
+          {
+            "token": "24c06ae12af83f89",
+            "value": 1
+          },
+          {
+            "token": "629a8a651bf19814",
+            "value": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "你有没有把隐私或秘密告诉过 AI？",
+    "options": [
+      {
+        "label": "A",
+        "text": "有，反正它不会当面评判我",
+        "reaction": "情绪托管率继续升高。",
+        "dimensionScores": [
+          {
+            "token": "24c06ae12af83f89",
+            "value": 2
+          },
+          {
+            "token": "68c5b08dcae3e6dc",
+            "value": 1
+          },
+          {
+            "token": "e8d313bbf6c24ee3",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "text": "有，但说完有点后悔",
+        "reaction": "后悔，但下次可能还会。",
+        "dimensionScores": [
+          {
+            "token": "1584a0358194bc3c",
+            "value": 2
+          },
+          {
+            "token": "24c06ae12af83f89",
+            "value": 1
+          },
+          {
+            "token": "914ae4d25c896181",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "text": "没有，我对输入内容非常克制",
+        "reaction": "隐私防线仍然健在。",
+        "dimensionScores": [
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 3
+          },
+          {
+            "token": "6f9f7bef8bf3057d",
+            "value": 1
+          },
+          {
+            "token": "914ae4d25c896181",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "text": "没有，但我用 AI 分析过别人的事",
+        "reaction": "检测到危险的好奇心。",
+        "dimensionScores": [
+          {
+            "token": "629a8a651bf19814",
+            "value": 2
+          },
+          {
+            "token": "1584a0358194bc3c",
+            "value": 1
+          },
+          {
+            "token": "9c83d502417f57cc",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "如果 AI 突然消失一个月，你会？",
+    "options": [
+      {
+        "label": "A",
+        "text": "工作效率直接折半，陷入恐慌",
+        "reaction": "生产力外骨骼已断开。",
+        "dimensionScores": [
+          {
+            "token": "4b64fd912fc295f4",
+            "value": 3
+          },
+          {
+            "token": "68c5b08dcae3e6dc",
+            "value": 1
+          },
+          {
+            "token": "55b32fdcb0d7da3e",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "label": "B",
+        "text": "感觉少了一个可以说话的地方",
+        "reaction": "树洞离线，情绪待机。",
+        "dimensionScores": [
+          {
+            "token": "24c06ae12af83f89",
+            "value": 3
+          },
+          {
+            "token": "68c5b08dcae3e6dc",
+            "value": 1
+          },
+          {
+            "token": "1584a0358194bc3c",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "label": "C",
+        "text": "无所谓，我本来也没多依赖它",
+        "reaction": "人类残留率较高。",
+        "dimensionScores": [
+          {
+            "token": "914ae4d25c896181",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 3
+          },
+          {
+            "token": "6f9f7bef8bf3057d",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "label": "D",
+        "text": "终于可以光明正大说自己不用 AI 了",
+        "reaction": "嘴硬指数拉满。",
+        "dimensionScores": [
+          {
+            "token": "914ae4d25c896181",
+            "value": 2
+          },
+          {
+            "token": "ab0f5880dbc8204c",
+            "value": 1
+          },
+          {
+            "token": "629a8a651bf19814",
+            "value": 2
+          },
+          {
+            "token": "1584a0358194bc3c",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  }
+]
